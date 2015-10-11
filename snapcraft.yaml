@@ -6,7 +6,7 @@ description: Example python package
 icon: icon.png
 binaries:
   mycat:
-    exec: bin/mycat.py
+    exec: usr/bin/mycat.py
 
 parts:
   mycat:
