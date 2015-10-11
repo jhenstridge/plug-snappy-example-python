@@ -1,0 +1,15 @@
+name: plug-example-python
+version: 1
+vendor: James Henstridge <james@jamesh.id.au>
+summary: Example python package
+description: Example python package
+icon: icon.png
+binaries:
+  mycat:
+    exec: bin/mycat.py
+
+parts:
+  mycat:
+    type: python3-project
+    source: .
+
